@@ -14,6 +14,7 @@
     padding-right: 8%;
 }
 
+/* navbar */
 nav {
     display: flex;
     align-items: center;
@@ -68,6 +69,7 @@ nav ul li a:hover {
 
 }
 
+/* .hamburger */
 .hamburger img {
     height: 30px;
     width: 30px;
@@ -81,7 +83,7 @@ nav ul li a:hover {
     z-index: 9999;
 }
 
-
+/* sidebar */
 .sidebar {
     height: 100%;
     width: 0;
@@ -112,12 +114,14 @@ nav ul li a:hover {
     background: #0e1e1e;
     margin-left: 5px;
     padding: 10px;
-    border-radius:15px;
+    border-radius: 15px;
 }
-.gap{
-    padding-top:40px;
+
+.gap {
+    padding-top: 40px;
 }
-.gap a{
-    padding:10px;
-    margin-left:10px;
+
+.gap a {
+    padding: 10px;
+    margin-left: 10px;
 }
