@@ -3,7 +3,7 @@ console.log("Homepage Loaded Successfully!");
 function toggleSidebar() {
     let sidebar = document.getElementById("sidebar");
 
-    if (sidebar.style.width === "250px") {
+    if (sidebar.style.width == "250px") {
         sidebar.style.width = "0";
     } else {
         sidebar.style.width = "250px";

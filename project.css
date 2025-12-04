@@ -109,7 +109,15 @@ nav ul li a:hover {
 }
 
 .sidebar a:hover {
-    background: #0d1717;
-    margin-left: 12px;
-    padding: 20px;
+    background: #0e1e1e;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius:15px;
+}
+.gap{
+    padding-top:40px;
+}
+.gap a{
+    padding:10px;
+    margin-left:10px;
 }
