@@ -103,18 +103,20 @@ nav ul li a:hover {
 }
 
 .sidebar a {
-    padding: 20px;
-    display: block;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
     text-decoration: none;
     color: white;
     font-size: 18px;
 }
 
 .sidebar a:hover {
-    background: #0e1e1e;
+    background: #0f5f75;
     margin-left: 5px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 11px;
 }
 
 .gap {
@@ -124,4 +126,24 @@ nav ul li a:hover {
 .gap a {
     padding: 10px;
     margin-left: 10px;
+
+}
+
+.sidebar img {
+    height: 26px;
+    width: 26px;
+    object-fit: contain;
+}
+
+.ChatBot img {
+    height: 45px;
+    width: 45px;
+}
+
+.ChatBot {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    cursor: pointer;
+    z-index: 9999;
 }
