@@ -1,0 +1,141 @@
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins', sans-serif;
+    }
+
+    body{
+      background:#f9f9ff;
+      color:#333;
+    }
+
+   
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:15px 60px;
+      background:#fff;
+      box-shadow:0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    .logo{
+      font-size:22px;
+      font-weight:700;
+      color:#7a2cff;
+    }
+
+    nav a{
+      margin-left:25px;
+      text-decoration:none;
+      color:#7a2cff;
+      font-weight:500;
+    }
+
+    .emergency-btn{
+      margin-left:30px;
+      padding:8px 18px;
+      border-radius:20px;
+      background:#ff2c2c;
+      color:#fff !important;
+      font-weight:600;
+    }
+
+    
+    .page-hero{
+      width:85%;
+      margin:40px auto;
+      padding:70px 40px;
+      border-radius:20px;
+      background:linear-gradient(135deg,#e8edff,#ffe7f6);
+      text-align:center;
+    }
+
+    .page-hero h1{
+      font-size:36px;
+      color:#4b2cff;
+      margin-bottom:10px;
+    }
+
+  
+    .contact-container{
+      width:80%;
+      margin:60px auto;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:40px;
+    }
+
+    .contact-info, .contact-form{
+      background:linear-gradient(135deg,#f0e8ff,#ffe9f7);
+      padding:30px;
+      border-radius:20px;
+    }
+
+    .contact-info h2, .contact-form h2{
+      color:#7a2cff;
+      margin-bottom:15px;
+    }
+
+    .contact-info p{
+      margin-bottom:10px;
+      line-height:1.6;
+    }
+
+    
+    .contact-form input, .contact-form textarea{
+      width:100%;
+      padding:12px;
+      margin-bottom:15px;
+      border-radius:10px;
+      border:1px solid #ccc;
+    }
+
+    .contact-form button{
+      padding:12px 30px;
+      border:none;
+      border-radius:25px;
+      background:#7a2cff;
+      color:#fff;
+      font-size:15px;
+      cursor:pointer;
+    }
+
+   
+    .emergency-section{
+      width:70%;
+      margin:80px auto;
+      padding:40px;
+      border-radius:20px;
+      background:linear-gradient(135deg,#ffeaea,#ffd6d6);
+      text-align:center;
+    }
+
+    .emergency-section h2{
+      color:#ff2c2c;
+      margin-bottom:10px;
+    }
+
+    .emergency-section a{
+      display:inline-block;
+      margin-top:20px;
+      padding:14px 40px;
+      background:#ff2c2c;
+      color:#fff;
+      border-radius:30px;
+      text-decoration:none;
+      font-size:18px;
+      font-weight:600;
+    }
+
+    
+    footer{
+      text-align:center;
+      padding:30px;
+      font-size:14px;
+      color:#777;
+    }
+
+    
